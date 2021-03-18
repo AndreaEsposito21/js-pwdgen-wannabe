@@ -11,4 +11,4 @@ var colorePreferito = prompt( 'Quale è il tuo colore preferito?' );
 console.log( colorePreferito );
 
 // Views sulla pagina
-document.writeln( nomeUtente + cognomeUtente + colorePreferito);
+document.writeln( nomeUtente + cognomeUtente + colorePreferito + 21);
