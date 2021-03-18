@@ -10,7 +10,9 @@ console.log( cognomeUtente );
 var colorePreferito = prompt( 'Quale è il tuo colore preferito?' );
 console.log( colorePreferito );
 
+// Tre domande
 var treDomande = nomeUtente + cognomeUtente + colorePreferito + 21;
+console.log( treDomande );
 
 // Views sulla pagina
-document.writeln( treDomande );
+document.getElementById( 'page-views' ).innerHTML = treDomande;
